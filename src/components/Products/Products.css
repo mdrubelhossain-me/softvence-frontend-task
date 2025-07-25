@@ -1,0 +1,331 @@
+.products-card .products-title {
+    padding-top: 80px;
+    color: #165831;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 2.24px;
+    text-transform: uppercase;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(446px, 1fr));
+    gap: 40px;
+    padding: 80px 154px 120px 154px;
+    max-width: 1728px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+
+    padding: 40px;
+    border-radius: 20px;
+    background: #165831;
+    color: #fff;
+    box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.4);
+    position: relative;
+    overflow: hidden;
+}
+
+.icon {
+    display: flex;
+    width: 120px;
+    height: 120px;
+    padding: 20px 20.347px 20px 19.653px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 20px;
+    background: #FFF;
+}
+
+.card ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card ul li {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    color: #FFF;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.card ul li::before {
+    content: '';
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    background-image: url('../../assets/icons/checkmark-circle-03.svg');
+    background-size: cover;
+}
+
+.construction-card ul li::before,
+.rent-card ul li::before {
+    content: '';
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    background-image: url('../../assets/icons/checkmark-circle-1.svg');
+    background-size: cover;
+}
+
+.construction-card ul .learn-more::before,
+.rent-card ul .learn-more::before {
+    content: '';
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    background-image: url('../../assets/icons/information-circle-2.svg');
+    background-size: cover;
+}
+
+.card ul .learn-more {
+    margin-top: 8px;
+}
+
+.construction-card .icon {
+    background: #165831;
+}
+
+.rent-card .icon {
+    background: #165831;
+}
+
+.rent-card {
+    background: #ffffff;
+    color: #165831;
+}
+
+.rent-card::before,
+.construction-card::before {
+    content: '';
+    position: absolute;
+    top: -40px;
+    left: -28.516px;
+    height: 60px;
+    transform: rotate(-5deg);
+    width: 100%;
+    background-color: #165831;
+}
+
+.rent-card::after,
+.construction-card::after {
+    content: '';
+    position: absolute;
+    right: -144.625px;
+    bottom: -43.276px;
+    height: 60px;
+    transform: rotate(-5deg);
+    width: 100%;
+    background-color: #165831;
+}
+
+.construction-card {
+    background: #ffffff;
+    color: #165831;
+}
+
+.card .card-title {
+    text-align: center;
+    color: #FFF;
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 20px;
+    margin-bottom: 4px;
+}
+
+.rent-card .card-title,
+.construction-card .card-title {
+    color: #165831;
+}
+
+.rent-card .subtitle,
+.construction-card .subtitle {
+    color: #165831 !important;
+}
+
+.card .subtitle {
+    text-align: center;
+    color: #FFF;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1rem 0;
+    text-align: left;
+}
+
+
+.card ul li .lrn-more {
+    color: #FFF;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+}
+
+.rent-card ul li .lrn-more,
+.construction-card ul li .lrn-more {
+    color: #165831;
+}
+
+.rent-card ul li {
+    color: #165831;
+}
+
+.construction-card ul li {
+    color: #165831;
+}
+
+.rent-card ul li .learn-more {
+    color: #165831;
+}
+
+.construction-card ul li .learn-more {
+    color: #165831;
+}
+
+.learn-more {
+    display: inline-block;
+    margin-bottom: 1rem;
+    font-size: 0.85rem;
+    text-decoration: underline;
+    color: inherit;
+}
+
+
+
+
+.cta-button {
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    color: #165831;
+    border: none;
+    border-radius: 6px;
+    padding: 4px 15px 4px 32px;
+    font-family: "Inter", sans-serif;
+    font-size: 19px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 100%;
+    clip-path: polygon(0 0, 100% 0, 94% 100%, 0% 100%);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+}
+
+.cta-text {
+    z-index: 1;
+}
+
+.cta-icon-box {
+    background-color: #165831;
+    height: 59px;
+    width: 61px;
+    margin-left: 20px;
+    border-radius: 6px;
+    transform: skewX(-19deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rent-card .cta-button,
+.construction-card .cta-button {
+    color: #FFF;
+}
+
+.rent-card .cta-icon-box,
+.construction-card .cta-icon-box {
+    background-color: #FFF;
+}
+
+.cta-icon {
+    color: #165831;
+    font-size: 18px;
+    font-weight: bold;
+    transform: skewX(12deg);
+}
+
+.cta-icon::before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url('../../assets/icons/arrow.svg');
+    background-size: cover;
+}
+
+.rent-card .cta-icon::before,
+.construction-card .cta-icon::before {
+    background-image: url('../../assets/icons/arrow-2.svg');
+}
+
+.rent-card .cta-button,
+.construction-card .cta-button {
+    background-color: #165831;
+}
+
+.rent-card .cta-icon,
+.construction-card .cta-icon {
+    color: #165831;
+}
+
+
+
+
+
+
+/* Responsive Improvements */
+@media (min-width: 316px) and (max-width: 768px) {
+    .card-grid {
+        width: 100% !important;
+        padding-right: 20px;
+        padding-left: 20px;
+        gap: 40px;
+    }
+
+    .card {
+        padding: 30px 20px;
+    }
+}
