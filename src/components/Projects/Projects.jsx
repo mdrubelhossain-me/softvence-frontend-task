@@ -165,7 +165,7 @@ const Projects = () => {
             swiper.params.navigation.prevEl = prevRef.current;
             swiper.params.navigation.nextEl = nextRef.current;
           }}
-          spaceBetween={40}
+          spaceBetween={20}
           slidesPerView={1}
           breakpoints={{
             640: { slidesPerView: 1 },
