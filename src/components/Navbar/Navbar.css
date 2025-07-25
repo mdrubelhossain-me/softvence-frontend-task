@@ -84,6 +84,7 @@
 @media (min-width: 769px) and (max-width: 1400px) {
     .navbar {
         padding: 24px 20px;
+         border-bottom: 1px solid #e0e0e0;
     }
 
     .menu-toggle {
@@ -114,6 +115,7 @@
 @media (min-width: 316px) and (max-width: 768px) {
     .navbar {
         padding: 24px 20px;
+        border-bottom: 1px solid #e0e0e0;
     }
 
     .logo .ridge,
