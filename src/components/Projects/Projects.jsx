@@ -4,21 +4,106 @@ import { Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "./Projects.css";
-
-import imageOne from "../../assets/images/r1.png";
-
+import imageOne from "../../assets/images/projects.jpg";
+import location from "../../assets/icons/ci_location.svg";
+import menu from "../../assets/icons/ep_menu.svg";
+import car from "../../assets/icons/ant-design_car-filled.svg";
+import bed from "../../assets/icons/fa-solid_bed.svg";
+import bath from "../../assets/icons/fa-solid_bath.svg";
+import { FaCircle } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const projectsData = [
   {
     id: 1,
     image: imageOne,
-    name: "John Doe",
-    designation: "What an amazing experience",
-    reviews:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor ex ut turpis congue, a accumsan elit ultricies. Vivamus sit amet ligula at libero ullamcorper fringilla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer euismod libero eu quam efficitur, a elementum sem fermentum. Fusce vel ante vel ex cursus.",
+    name: "4321 Alton Rd, Miami Beach",
+    location: "Miami, Florida",
+    size: "2350 Square Feet",
+    garages: "4 Garage",
+    rooms: "2 Bedrooms",
+    bathrooms: "3 Bathrooms",
+    amount: "328,000",
+    ltv: "84.65%",
+    rate: "11.75%",
+    terms: "12 Months",
+    total: "3,45,000",
   },
-
+  {
+    id: 2,
+    image: imageOne,
+    name: "4321 Alton Rd, Miami Beach",
+    location: "Miami, Florida",
+    size: "2350 Square Feet",
+    garages: "4 Garage",
+    rooms: "2 Bedrooms",
+    bathrooms: "3 Bathrooms",
+    amount: "328,000",
+    ltv: "84.65%",
+    rate: "11.75%",
+    terms: "12 Months",
+    total: "3,45,000",
+  },
+  {
+    id: 3,
+    image: imageOne,
+    name: "4321 Alton Rd, Miami Beach",
+    location: "Miami, Florida",
+    size: "2350 Square Feet",
+    garages: "4 Garage",
+    rooms: "2 Bedrooms",
+    bathrooms: "3 Bathrooms",
+    amount: "328,000",
+    ltv: "84.65%",
+    rate: "11.75%",
+    terms: "12 Months",
+    total: "3,45,000",
+  },
+  {
+    id: 4,
+    image: imageOne,
+    name: "4321 Alton Rd, Miami Beach",
+    location: "Miami, Florida",
+    size: "2350 Square Feet",
+    garages: "4 Garage",
+    rooms: "2 Bedrooms",
+    bathrooms: "3 Bathrooms",
+    amount: "328,000",
+    ltv: "84.65%",
+    rate: "11.75%",
+    terms: "12 Months",
+    total: "3,45,000",
+  },
+  {
+    id: 5,
+    image: imageOne,
+    name: "4321 Alton Rd, Miami Beach",
+    location: "Miami, Florida",
+    size: "2350 Square Feet",
+    garages: "4 Garage",
+    rooms: "2 Bedrooms",
+    bathrooms: "3 Bathrooms",
+    amount: "328,000",
+    ltv: "84.65%",
+    rate: "11.75%",
+    terms: "12 Months",
+    total: "3,45,000",
+  },
+  {
+    id: 6,
+    image: imageOne,
+    name: "4321 Alton Rd, Miami Beach",
+    location: "Miami, Florida",
+    size: "2350 Square Feet",
+    garages: "4 Garage",
+    rooms: "2 Bedrooms",
+    bathrooms: "3 Bathrooms",
+    amount: "328,000",
+    ltv: "84.65%",
+    rate: "11.75%",
+    terms: "12 Months",
+    total: "3,45,000",
+  },
 ];
 
 const Projects = () => {
@@ -27,12 +112,14 @@ const Projects = () => {
 
   return (
     <div className="projects-container">
-      <h2 className="projects-title">Ridge Street Client Reviews</h2>
-      <div className="half-box"></div>
+      <h2 className="projects-title">Past Projects</h2>
+      <p className="sub-title">
+        A Proven Track Record Funding Projects Like These
+      </p>
 
       <div className="swiper-wrapper-box">
         {/* Custom Arrows */}
-        <div className="custom-swiper-button custom-prev" ref={prevRef}>
+        <div className="p-custom-swiper-button p-custom-prev" ref={prevRef}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="80"
@@ -49,7 +136,7 @@ const Projects = () => {
             />
           </svg>
         </div>
-        <div className="custom-swiper-button custom-next" ref={nextRef}>
+        <div className="p-custom-swiper-button p-custom-next" ref={nextRef}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="80"
@@ -82,23 +169,158 @@ const Projects = () => {
           slidesPerView={1}
           breakpoints={{
             640: { slidesPerView: 1 },
-            991: { slidesPerView: 2 },
-            1024: { slidesPerView: 2 },
+            991: { slidesPerView: 1 },
+            1024: { slidesPerView: 1 },
             1191: { slidesPerView: 2 },
-            1450: { slidesPerView: 4 },
+            1450: { slidesPerView: 3 },
           }}
         >
-          {projectsData.map((item) => (
-            <SwiperSlide key={item.id}>
-              <div className="review-card">
-                <img
-                  src={item.image}
-                  alt={item.name}
-                  className="review-image"
-                />
-                <h3 className="review-name">{item.name}</h3>
-                <p className="designation">{item.designation}</p>
-                <p className="review-text">{item.reviews}</p>
+          {projectsData.map((project) => (
+            <SwiperSlide key={project.id}>
+              <div className="project-card">
+                <div className="image-box">
+                  <img
+                    src={project.image}
+                    alt={project.name}
+                    className="project-image"
+                  />
+                  <span>For Sale</span>
+                </div>
+                <h2 className="name">{project.name}</h2>
+                <div className="p-location">
+                  <img src={location} width={21} height={21} alt="Location" />
+                  <span>{project.location}</span>
+                </div>
+
+                <div className="p-details">
+                  <div
+                    style={{
+                      display: "flex",
+                      flexDirection: "column",
+                      gap: "17px",
+                    }}
+                  >
+                    <div
+                      style={{
+                        display: "flex",
+                        alignItems: "center",
+                        gap: "12px",
+                      }}
+                    >
+                      <img src={menu} width={20} height={20} alt="" />
+                      <span>{project.size}</span>
+                    </div>
+                    <div
+                      style={{
+                        display: "flex",
+                        alignItems: "center",
+                        gap: "12px",
+                      }}
+                    >
+                      <img src={bed} width={20} height={20} alt="" />
+                      <span>{project.rooms}</span>
+                    </div>
+                  </div>
+                  <div
+                    style={{
+                      display: "flex",
+                      flexDirection: "column",
+                      gap: "17px",
+                    }}
+                  >
+                    <div
+                      style={{
+                        display: "flex",
+                        alignItems: "center",
+                        gap: "12px",
+                      }}
+                    >
+                      <img src={car} width={20} height={20} alt="" />
+                      <span>{project.garages}</span>
+                    </div>
+                    <div
+                      style={{
+                        display: "flex",
+                        alignItems: "center",
+                        gap: "12px",
+                      }}
+                    >
+                      <img src={bath} width={20} height={20} alt="" />
+                      <span>{project.bathrooms}</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="p-rates">
+                  <div
+                    style={{
+                      display: "flex",
+                      flexDirection: "column",
+                      gap: "12px",
+                    }}
+                  >
+                    <div
+                      style={{
+                        display: "flex",
+                        alignItems: "center",
+                        gap: "12px",
+                      }}
+                    >
+                      <FaCircle size={8} />
+                      <span>
+                        Loan Amount: <b>${project.amount}</b>
+                      </span>
+                    </div>
+                    <div
+                      style={{
+                        display: "flex",
+                        alignItems: "center",
+                        gap: "12px",
+                      }}
+                    >
+                      <FaCircle size={8} />
+                      <span>
+                        Rate: <b>{project.rate}</b>
+                      </span>
+                    </div>
+                  </div>
+                  <div
+                    style={{
+                      display: "flex",
+                      flexDirection: "column",
+                      gap: "12px",
+                    }}
+                  >
+                    <div
+                      style={{
+                        display: "flex",
+                        alignItems: "center",
+                        gap: "12px",
+                      }}
+                    >
+                      <FaCircle size={8} />
+                      <span>
+                        LTV: <b>{project.ltv}</b>
+                      </span>
+                    </div>
+                    <div
+                      style={{
+                        display: "flex",
+                        alignItems: "center",
+                        gap: "12px",
+                      }}
+                    >
+                      <FaCircle size={8} />
+                      <span>
+                        Term: <b>{project.terms}</b>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+
+                <button type="button" className="total-button">
+                  ${project.total}
+                </button>
               </div>
             </SwiperSlide>
           ))}
@@ -107,7 +329,7 @@ const Projects = () => {
 
       <div className="btn-section">
         <Link to="/" className="cta-button">
-          <span className="cta-text">Get Approved Online</span>
+          <span className="cta-text">Get Terms For Your Project</span>
           <span className="cta-icon-box">
             <span className="cta-icon"></span>
           </span>

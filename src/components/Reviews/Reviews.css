@@ -77,7 +77,7 @@
     line-height: 170%;
 }
 
-.swiper-wrapper {
+.reviews-container .swiper-wrapper {
     overflow: visible;
     padding-top: 120px;
 }
@@ -191,6 +191,6 @@
     }
 
     .btn-section .cta-button {
-        font-size: 16px;
+        font-size: 18px;
     }
 }
