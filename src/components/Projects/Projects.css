@@ -33,6 +33,7 @@
     background: #FFF;
     border-radius: 14px;
     overflow: hidden;
+    border: none;
 }
 
 .project-card .image-box {
