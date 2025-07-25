@@ -1,112 +1,113 @@
 /* Main Navbar Styles */
 .navbar {
-  display: flex;
-  max-width: 1728px;
-  padding: 40px 154px;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0 auto;
-  box-sizing: border-box;
-  background-color: #fff;
-  position: relative;
-  z-index: 10;
+    display: flex;
+    max-width: 1728px;
+    padding: 40px 154px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-color: #fff;
+    position: relative;
+    z-index: 10;
 }
 
 
 
 .navbar .logo .ridge {
-  color:#165831;
-font-family: 'Inter', sans-serif;
-font-size: 40px;
-font-style: normal;
-font-weight: 900;
-line-height: normal;
-letter-spacing: 1.6px;
-text-transform: uppercase;
+    color: #165831;
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
 }
-.navbar .logo .street{
+
+.navbar .logo .street {
     color: #949293;
-font-family: 'Inter', sans-serif;
-font-size: 40px;
-font-style: normal;
-font-weight: 900;
-line-height: normal;
-letter-spacing: 1.6px;
-text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
 }
 
 .navbar-nav {
-  display: flex;
-  align-items: center;
-  gap: 32px;
-  list-style: none;
-  transition: all 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    list-style: none;
+    transition: all 0.3s ease-in-out;
 }
 
 .navbar-nav .nav-link {
-  position: relative;
- color: #343434;
-font-family: 'Inter', sans-serif;
-font-size: 20px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+    position: relative;
+    color: #343434;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
 
 .approved-button {
-    color: #FFF!important;
-font-family:   'Inter', sans-serif;
-font-size: 18px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-text-transform: uppercase;
-  display: flex;
-  padding: 20px 32px;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  border-radius: 8px;
-  background: rgba(22, 88, 49, 0.90);
-  color: white;
-  box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.25) inset,
-              0 0 40px 0 rgba(0, 0, 0, 0.25);
+    color: #FFF !important;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    display: flex;
+    padding: 20px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: rgba(22, 88, 49, 0.90);
+    color: white;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.25) inset,
+        0 0 40px 0 rgba(0, 0, 0, 0.25);
 }
 
 /* Hamburger icon for mobile */
 .menu-toggle {
-  display: none;
-  font-size: 28px;
-  cursor: pointer;
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
 }
 
 /* Cross icon */
 .close-icon {
-  font-size: 28px;
+    font-size: 28px;
 }
 
 /* Responsive Styles */
 @media (max-width: 768px) {
-  .navbar-nav {
-    display: none;
-    position: absolute;
-    top: 100px;
-    right: 0;
-    background-color: white;
-    flex-direction: column;
-    padding: 20px;
-    gap: 20px;
-    width: 220px;
-    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
-    border-radius: 8px;
-    transition: all 0.3s ease-in-out;
-  }
+    .navbar-nav {
+        display: none;
+        position: absolute;
+        top: 100px;
+        right: 0;
+        background-color: white;
+        flex-direction: column;
+        padding: 20px;
+        gap: 20px;
+        width: 220px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+        transition: all 0.3s ease-in-out;
+    }
 
-  .navbar-nav.show {
-    display: flex;
-  }
+    .navbar-nav.show {
+        display: flex;
+    }
 
-  .menu-toggle {
-    display: block;
-  }
+    .menu-toggle {
+        display: block;
+    }
 }
