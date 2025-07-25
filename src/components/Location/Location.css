@@ -235,4 +235,8 @@
     .location .l-card h2 {
         font-size: 40px;
     }
+
+    .btn-section .cta-button {
+        font-size: 18px;
+    }
 }
