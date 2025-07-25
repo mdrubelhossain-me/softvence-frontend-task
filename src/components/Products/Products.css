@@ -244,7 +244,7 @@
     cursor: pointer;
     transition: all 0.3s ease;
     width: 100%;
-    clip-path: polygon(0 0, 100% 0, 94% 100%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 95% 100%, 0% 100%);
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
     overflow: hidden;
 }
