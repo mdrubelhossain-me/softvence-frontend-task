@@ -12,11 +12,9 @@
     z-index: 10;
 }
 
-
-
 .navbar .logo .ridge {
     color: #165831;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 40px;
     font-style: normal;
     font-weight: 900;
@@ -26,11 +24,12 @@
 }
 
 .navbar .logo .street {
+    padding-left: 10px;
     color: #949293;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 40px;
     font-style: normal;
-    font-weight: 900;
+    font-weight: 900 !important;
     line-height: normal;
     letter-spacing: 1.6px;
     text-transform: uppercase;
