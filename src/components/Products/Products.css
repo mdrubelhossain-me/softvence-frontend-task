@@ -1,3 +1,9 @@
+.products-card {
+    max-width: 1728px;
+    margin: 0 auto;
+    ;
+}
+
 .products-card .products-title {
     padding-top: 80px;
     color: #165831;
