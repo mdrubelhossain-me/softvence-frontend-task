@@ -11,12 +11,12 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="logo">
         <Link to="/">
-          <span>Ridge</span>
-          <span>Street</span>
+          <span className="ridge">Ridge</span>
+          <span className="street">Street</span>
         </Link>
       </div>
 
-      <ul className={`nav-links ${isOpen ? "show" : ""}`}>
+      <ul className={`navbar-nav ${isOpen ? "show" : ""}`}>
         <li><Link to="/fix-and-flip" className="nav-link">Fix and Flip</Link></li>
         <li><Link to="/rental-loans" className="nav-link">Rental Loans</Link></li>
         <li><Link to="/where-we-lend" className="nav-link">Where We Lend</Link></li>
