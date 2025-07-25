@@ -1,205 +1,238 @@
 .location-section {
-  max-width: 1728px;
-  margin: 0 auto;
-  padding: 120px 154px;
-  background-color: #165831;
+    max-width: 1728px;
+    margin: 0 auto;
+    padding: 120px 154px;
+    background-color: #165831;
 }
 
 .location-section .title {
-  color: #FFF;
-  margin: 0;
-  padding-bottom: 20px;
-  font-family: "Inter", sans-serif;
-  font-size: 56px;
-  font-weight: 800;
-  letter-spacing: 2.24px;
-  text-transform: uppercase;
+    color: #FFF;
+    margin: 0;
+    padding-bottom: 20px;
+    font-family: "Inter", sans-serif;
+    font-size: 56px;
+    font-weight: 800;
+    letter-spacing: 2.24px;
+    text-transform: uppercase;
 }
 
 .location-section .sub-title {
-  color: #FFF;
-  font-family: "Inter", sans-serif;
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 150%;
-  letter-spacing: 0.24px;
+    color: #FFF;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.24px;
 }
 
 .location-section .sub-title span {
-  font-weight: 800;
+    font-weight: 800;
 }
 
 .location-section .sub-title:last-child {
-  margin-bottom: 80px;
+    margin-bottom: 80px;
 }
 
 .map-container {
-  max-width: 1170px;
-  height: 600px;
-  margin: 0 auto;
-  overflow: hidden;
+    max-width: 1170px;
+    height: 600px;
+    margin: 0 auto;
+    overflow: hidden;
 }
 
 .map-container img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 .location {
-  max-width: 1080px;
-  margin: 80px auto 0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+    max-width: 1080px;
+    margin: 80px auto 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .location .l-card {
-  width: 440px;
-  height: 560px;
-  padding: 172px 27.347px 171px 28.653px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border: 2px solid #FFF;
+    max-width: 440px;
+    height: 560px;
+    padding: 172px 27.347px 171px 28.653px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #FFF;
 }
 
 .location .texas {
-  border-radius: 0 60px;
-  background: linear-gradient(147deg, rgba(96, 230, 151, 0.70) 0%, rgba(0, 0, 0, 0.70) 100%),
-              url('../../assets/images/img-1.png') lightgray 50% / cover no-repeat;
+    border-radius: 0 60px;
+    background: linear-gradient(147deg, rgba(96, 230, 151, 0.70) 0%, rgba(0, 0, 0, 0.70) 100%),
+        url('../../assets/images/img-1.png') lightgray 50% / cover no-repeat;
 }
 
 .location .florida {
-  border-radius: 60px 0;
-  background: linear-gradient(147deg, rgba(96, 230, 151, 0.70) 0%, rgba(0, 0, 0, 0.70) 100%),
-              url('../../assets/images/img-2.jpg') lightgray 50% / cover no-repeat;
+    border-radius: 60px 0;
+    background: linear-gradient(147deg, rgba(96, 230, 151, 0.70) 0%, rgba(0, 0, 0, 0.70) 100%),
+        url('../../assets/images/img-2.jpg') lightgray 50% / cover no-repeat;
 }
 
 .location .l-card h2 {
-  color: #FFF;
-  text-align: center;
-  font-family: "Inter", sans-serif;
-  font-size: 56px;
-  font-weight: 800;
-  letter-spacing: 2.24px;
-  margin: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 56px;
+    font-weight: 800;
+    letter-spacing: 2.24px;
+    margin: 0;
 }
 
 .location .l-card p {
-  color: #FFF;
-  font-family: "Inter", sans-serif;
-  font-size: 24px;
-  font-weight: 500;
-  padding: 10px 0 40px;
-  margin: 0;
-  letter-spacing: 0.24px;
+    color: #FFF;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 10px 0 40px;
+    margin: 0;
+    letter-spacing: 0.24px;
 }
 
 .location .l-card .view-btn {
-  display: flex;
-  width: 300px;
-  height: 70px;
-  padding: 20px;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  border-radius: 80px;
-  border: 2px solid #FFF;
-  color: #FFF;
-  font-family: "Raleway", sans-serif;
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 34px;
-  text-transform: uppercase;
-  text-align: center;
+    display: flex;
+    width: 300px;
+    height: 70px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 80px;
+    border: 2px solid #FFF;
+    color: #FFF;
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 34px;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 .btn-section {
-  display: flex;
-  justify-content: center;
-  margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
 }
 
 .btn-section .cta-button {
-  max-width: 396px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: #FFF;
-  border: none;
-  border-radius: 6px;
-  color: #175730;
-  font-family: "Inter", sans-serif;
-  font-size: 24px;
-  font-weight: 600;
-  text-transform: uppercase;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  clip-path: polygon(0 0, 100% 0, 94% 100%, 0% 100%);
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
-  overflow: hidden;
+    max-width: 396px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFF;
+    border: none;
+    border-radius: 6px;
+    color: #175730;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    clip-path: polygon(0 0, 100% 0, 94% 100%, 0% 100%);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
 }
 
 .cta-text {
-  z-index: 1;
+    z-index: 1;
 }
 
 .cta-icon-box {
-  background-color: #165831;
-  height: 59px;
-  width: 61px;
-  margin-left: 20px;
-  border-radius: 6px;
-  transform: skewX(-19deg);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    background-color: #165831;
+    height: 59px;
+    width: 61px;
+    margin-left: 20px;
+    border-radius: 6px;
+    transform: skewX(-19deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .cta-icon {
-  color: #165831;
-  font-size: 18px;
-  font-weight: bold;
-  transform: skewX(12deg);
+    color: #165831;
+    font-size: 18px;
+    font-weight: bold;
+    transform: skewX(12deg);
 }
 
 .cta-icon::before {
-  content: '';
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  background-image: url('../../assets/icons/arrow.svg');
-  background-size: cover;
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url('../../assets/icons/arrow.svg');
+    background-size: cover;
 }
 
 
 .rent-card .cta-button,
 .construction-card .cta-button {
-  color: #FFF;
+    color: #FFF;
 }
 
 .rent-card .cta-icon-box,
 .construction-card .cta-icon-box {
-  background-color: #FFF;
+    background-color: #FFF;
 }
 
-@media (min-width: 316px) and (max-width: 1191px) {
-  .location-section {
-    padding-left: 20px;
-    padding-right: 20px;
-    width: 100% !important;
-  }
 
-  .location-section .map-container {
-    width: 100%;
-    height: auto;
-  }
 
-  .location {
-    width: 100% !important;
-    gap: 100px;
-    justify-content: center;
-  }
+@media (min-width: 769px) and (max-width: 1191px) {
+    .location-section {
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 100% !important;
+    }
+
+    .location-section .map-container {
+        width: 100%;
+        height: auto;
+    }
+
+    .location {
+        width: 100% !important;
+        gap: 100px;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 316px) and (max-width: 768px) {
+    .location-section {
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 100% !important;
+    }
+
+    .location-section .title {
+        font-size: 40px;
+    }
+
+    .location-section .map-container {
+        width: 100%;
+        height: auto;
+    }
+
+    .location {
+        width: 100% !important;
+        gap: 100px;
+        justify-content: center;
+    }
+
+    .location .l-card {
+        width: auto;
+    }
+
+    .location .l-card h2 {
+        font-size: 40px;
+    }
 }
