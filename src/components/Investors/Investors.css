@@ -1,0 +1,170 @@
+.investors-container {
+    max-width: 1728px;
+    margin: 0 auto;
+    padding: 120px 154px;
+}
+
+.investors-container .title {
+    color: #165831;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 2.24px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.investors-container .sub-title {
+    color: #343434;
+    margin-top: 16px;
+    text-align: center;
+    font-family: Inter, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.24px;
+}
+
+.investors-container .investors-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(447px, 1fr));
+    gap: 39px;
+    margin-top: 48px;
+}
+
+.investors-container .investors-grid .i-card {
+    border-radius: 12px;
+    border: 1px solid #B3BAC5;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 46px 74px 50px 74px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.investors-container .investors-grid .i-card .rectangle {
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 138px;
+    height: 104px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background-color: #EEFFF5;
+    transform: skewX(-20deg);
+}
+
+.investors-container .investors-grid .i-card .rectangle .icon-container {
+    width: 91px;
+    height: 64px;
+    background-color: #FFF;
+    border: 1px solid #175730;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.investors-container .investors-grid .i-card .rectangle .icon-container img {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+}
+
+
+.investors-container .investors-grid .i-card h3 {
+    margin-top: 5px;
+    color: #175730;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36.74px;
+}
+
+.investors-container .investors-grid .i-card .card-description {
+    max-width: 298px;
+    margin: 0 auto;
+    color: #343434;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    padding-bottom: 25px;
+}
+
+.investors-container .investors-grid .i-card .find-home-link {
+    display: flex;
+    width: 193px;
+    height: 55px;
+    padding: 19px 31px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border-radius: 12px;
+    border: 1px solid #175730;
+    background: #FFF;
+    color: #175730;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.investors-container .investors-grid .i-card .find-home-link img {
+    transition: filter 0.3s ease;
+}
+
+/*  Hover Effect */
+.investors-container .investors-grid .i-card .find-home-link:hover {
+    background-color: #175730;
+    color: #FFF;
+}
+
+.investors-container .investors-grid .i-card .find-home-link:hover img {
+    filter: brightness(0) invert(1);
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .investors-container {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .investors-container .investors-grid {
+
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+}
+
+@media (min-width: 316px) and (max-width: 768px) {
+    .investors-container {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .investors-container .title {
+        font-size: 40px;
+    }
+
+    .investors-container .investors-grid {
+
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+}
