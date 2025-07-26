@@ -127,7 +127,7 @@ const Reviews = () => {
             1024: { slidesPerView: 2 },
             1191: { slidesPerView: 2 },
              1250: { slidesPerView: 3 },
-            1450: { slidesPerView: 4 },
+            1600: { slidesPerView: 4 },
           }}
         >
           {reviewsData.map((item) => (
