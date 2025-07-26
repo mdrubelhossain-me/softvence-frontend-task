@@ -68,7 +68,7 @@ const Reviews = () => {
 
   return (
     <div className="reviews-container">
-      <h2 className="reviews-title">Ridge Street Client Reviews</h2>
+      <h2 className="reviews-title" data-aos="fade-up">Ridge Street Client Reviews</h2>
       <div className="half-box"></div>
 
       <div className="swiper-wrapper-box">

@@ -9,7 +9,7 @@ import arrow from "../../assets/icons/arrow-l-1.svg";
 
 const Investors = () => {
   return (
-    <div className="investors-container">
+    <div className="investors-container" data-aos="fade-up">
       <h2 className="title">Interested In Working With Us?</h2>
       <p className="sub-title">
         We work with real estate investors across the country every day. How can

@@ -41,7 +41,7 @@ const Products = () => {
   ];
 
   return (
-    <div className="products-card">
+    <div className="products-card" data-aos="fade-up">
       <h2 className="products-title">Loan Products</h2>
       <div className="card-grid">
         {cards.map((card, index) => (

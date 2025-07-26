@@ -34,7 +34,7 @@ const resourcesData = [
 
 const Resources = () => {
   return (
-    <div className="resources-container">
+    <div className="resources-container" data-aos="fade-up">
       <div className="heading">
         <h2>Other Resources You’ll Like</h2>
         <p>

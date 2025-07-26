@@ -33,7 +33,7 @@ const chooseUsData = [
 
 const ChooseUs = () => {
   return (
-    <div className="choose-us">
+    <div className="choose-us" data-aos="fade-up">
       <h2 className="title">Why Choose Us?</h2>
       <div className="choose-us-content">
         {chooseUsData.map((item) => (

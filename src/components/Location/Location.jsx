@@ -7,7 +7,7 @@ import map from "../../assets/icons/map.svg";
 const Location = () => {
   return (
     <div className="location-section">
-      <div>
+      <div data-aos="fade-up">
         <h2 className="title">Where We Lend</h2>
         <p className="sub-title">
           Ridge Street provides hard money loans to real estate investors in 35 states.
@@ -17,12 +17,12 @@ const Location = () => {
         </p>
       </div>
 
-      <div className="map-container">
+      <div className="map-container" data-aos="fade-up">
         <img src={map} alt="Map showing locations" />
       </div>
 
       <div className="location">
-        <div className="l-card texas">
+        <div className="l-card texas" data-aos="fade-left">
           <h2>Texas</h2>
           <p>Hard Money Loans | DSCR Loans</p>
           <div>
@@ -32,7 +32,7 @@ const Location = () => {
           </div>
         </div>
 
-        <div className="l-card florida">
+        <div className="l-card florida" data-aos="fade-right">
           <h2>Florida</h2>
           <p>Hard Money Loans | DSCR Loans</p>
           <div>

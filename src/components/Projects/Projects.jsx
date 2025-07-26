@@ -112,8 +112,8 @@ const Projects = () => {
 
   return (
     <div className="projects-container">
-      <h2 className="projects-title">Past Projects</h2>
-      <p className="sub-title">
+      <h2 className="projects-title" data-aos="fade-up">Past Projects</h2>
+      <p className="sub-title" data-aos="fade-up">
         A Proven Track Record Funding Projects Like These
       </p>
 
