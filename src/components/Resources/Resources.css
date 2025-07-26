@@ -126,4 +126,8 @@
     .resources-card-container {
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     }
+
+    .resources-card-container .resource-card img {
+        height: 280px;
+    }
 }
