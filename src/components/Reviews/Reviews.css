@@ -167,6 +167,12 @@
 }
 
 
+@media (min-width: 1250px) and (max-width: 1400px) {
+    .reviews-container {
+        padding: 90px 90px;
+    }
+}
+
 @media (min-width: 316px) and (max-width: 768px) {
     .reviews-container {
         padding: 40px 40px;

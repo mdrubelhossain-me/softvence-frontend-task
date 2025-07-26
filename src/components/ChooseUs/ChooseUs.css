@@ -132,6 +132,18 @@
     background-size: cover;
 }
 
+@media (min-width: 1250px) and (max-width: 1400px) {
+    .choose-us {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+
+    .choose-us-content {
+        grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    }
+}
+
+
 @media (min-width: 1101px) and (max-width: 1220px) {
     .choose-us {
         padding-right: 20px;

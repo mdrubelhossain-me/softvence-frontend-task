@@ -141,6 +141,19 @@
     filter: brightness(0) invert(1);
 }
 
+
+
+@media (min-width: 1250px) and (max-width: 1400px) {
+    .investors-container {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+
+    .investors-container .investors-grid {
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+}
+
 @media (min-width: 769px) and (max-width: 1229px) {
     .investors-container {
         padding-right: 20px;
@@ -148,7 +161,6 @@
     }
 
     .investors-container .investors-grid {
-
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     }
 }
