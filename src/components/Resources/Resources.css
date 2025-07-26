@@ -111,6 +111,14 @@
     .resources-card-container {
         grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
     }
+
+    .resources-card-container .resource-card .r-title {
+        max-width: 100% !important;
+    }
+
+    .resources-card-container .resource-card .description {
+        max-width: 100% !important;
+    }
 }
 
 @media (min-width: 316px) and (max-width: 700px) {
@@ -129,5 +137,13 @@
 
     .resources-card-container .resource-card img {
         height: 280px;
+    }
+
+    .resources-card-container .resource-card .r-title {
+        max-width: 100% !important;
+    }
+
+    .resources-card-container .resource-card .description {
+        max-width: 100% !important;
     }
 }
