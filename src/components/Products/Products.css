@@ -244,6 +244,7 @@
     border: none;
     border-radius: 6px;
     padding: 4px 15px 4px 32px;
+    box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.40);
     font-family: "Inter", sans-serif;
     font-size: 19px;
     font-weight: 600;
@@ -304,7 +305,7 @@
 
 .rent-card .cta-button,
 .construction-card .cta-button {
-    background-color: #165831;
+    background-color: #175730;
 }
 
 .rent-card .cta-icon,
