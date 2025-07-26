@@ -22,7 +22,7 @@ const Location = () => {
       </div>
 
       <div className="location">
-        <div className="l-card texas" data-aos="fade-left">
+        <div className="l-card texas" data-aos="fade-up">
           <h2>Texas</h2>
           <p>Hard Money Loans | DSCR Loans</p>
           <div>
@@ -32,7 +32,7 @@ const Location = () => {
           </div>
         </div>
 
-        <div className="l-card florida" data-aos="fade-right">
+        <div className="l-card florida" data-aos="fade-up">
           <h2>Florida</h2>
           <p>Hard Money Loans | DSCR Loans</p>
           <div>
