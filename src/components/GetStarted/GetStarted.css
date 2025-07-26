@@ -1,35 +1,16 @@
-.hero-container {
+.rgs-container {
     max-width: 1728px;
     height: auto;
-    min-height: 1004px;
+    min-height: 830px;
     margin: 0 auto;
-    position: relative;
-    background-image: url('../../assets//images/hero-bg.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
     overflow: hidden;
+    background-color: #f8f8f8;
 }
 
-
-.hero-container .overlay {
-    position: absolute;
-    inset: 0;
-    background: white;
-    backdrop-filter: blur(100px);
-    -webkit-backdrop-filter: blur(100px);
-    mask-image: linear-gradient(to right, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.8) 50%, rgba(0, 0, 0, 0) 100%);
-    -webkit-mask-image: linear-gradient(to right, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 1) 40%, rgba(0, 0, 0, 0.8) 100%);
-    z-index: 2;
-}
-
-
-.hero-container .content {
-    position: absolute;
+.rgs-container .content {
     width: 100%;
     height: 100%;
     padding-left: 154px;
-    padding-right: 84px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -37,11 +18,12 @@
 
 }
 
-.hero-container .content .left-side {
+.rgs-container .content .left-side {
     width: 700px;
+    margin-top: 185px;
 }
 
-.hero-container .content .left-side h1 {
+.rgs-container .content .left-side h1 {
     font-family: "Inter", sans-serif;
     font-size: 60px;
     font-style: normal;
@@ -53,10 +35,10 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
-.hero-container .content .left-side p {
+.rgs-container .content .left-side p {
     color: #343434;
     font-family: "Inter", sans-serif;
     font-size: 32px;
@@ -65,14 +47,14 @@
     line-height: 150%;
 }
 
-.hero-container .content .left-side .btn-section {
+.rgs-container .content .left-side .btn-section {
     display: flex;
     justify-content: start;
-    margin-top: 60px;
+    margin-top: 40px;
 }
 
-.hero-container .content .left-side .btn-section .cta-button {
-    max-width: 415px;
+.rgs-container .content .left-side .btn-section .cta-button {
+    max-width: 476px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -93,11 +75,11 @@
     text-transform: uppercase;
 }
 
-.hero-container .content .left-side .cta-text {
+.rgs-container .content .left-side .cta-text {
     z-index: 1;
 }
 
-.hero-container .content .left-side .cta-icon-box {
+.rgs-container .content .left-side .cta-icon-box {
     background-color: #FFF;
     height: 73px;
     width: 76px;
@@ -109,14 +91,14 @@
     justify-content: center;
 }
 
-.hero-container .content .left-side .cta-icon {
+.rgs-container .content .left-side .cta-icon {
     color: #165831;
     font-size: 18px;
     font-weight: bold;
     transform: skewX(12deg);
 }
 
-.hero-container .content .left-side .cta-icon::before {
+.rgs-container .content .left-side .cta-icon::before {
     content: '';
     display: inline-block;
     width: 20px;
@@ -125,19 +107,18 @@
     background-size: cover;
 }
 
-.hero-container .content .right-side {
+.rgs-container .content .right-side {
     width: 50%;
 }
 
 
 
 @media (min-width: 1250px) and (max-width: 1400px) {
-    .hero-container {
+    .rgs-container {
         min-height: 750px !important;
     }
 
-    .hero-container .content {
-        padding-right: 40px;
+    .rgs-container .content {
         padding-left: 40px;
     }
 
@@ -145,58 +126,57 @@
 
 /* @media (min-width: 1230px) and (max-width: 1300px) {
 
-    .hero-container .content {
+    .rgs-container .content {
         flex-direction: column;
     }
 
-    .hero-container .content .left-side {
+    .rgs-container .content .left-side {
         width: 100% !important;
     }
 
 
-    .hero-container .content .right-side {
+    .rgs-container .content .right-side {
         width: 100% !important;
     }
 } */
 
 @media (min-width: 992px) and (max-width: 1229px) {
 
-    .hero-container .content {
-        padding-right: 20px;
+    .rgs-container .content {
         padding-left: 20px;
         flex-direction: column;
     }
 
-    .hero-container .content .left-side {
+    .rgs-container .content .left-side {
         width: 100% !important;
     }
 
 
-    .hero-container .content .right-side {
+    .rgs-container .content .right-side {
         width: 100% !important;
     }
 }
 
 @media (min-width: 316px) and (max-width: 991px) {
 
-    .hero-container .content {
-        padding-right: 20px;
+    .rgs-container .content {
         padding-left: 20px;
         flex-direction: column;
     }
 
-    .hero-container .content .left-side {
+    .rgs-container .content .left-side {
         width: 100% !important;
     }
 
-    .hero-container .content .left-side h1 {
+    .rgs-container .content .left-side h1 {
         font-size: 45px;
     }
 
-    .hero-container .content .right-side {
+    .rgs-container .content .right-side {
         width: 100% !important;
     }
-    .hero-container .content .left-side .btn-section .cta-button {
+
+    .rgs-container .content .left-side .btn-section .cta-button {
         font-size: 20px;
     }
 }

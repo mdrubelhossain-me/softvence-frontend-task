@@ -1,21 +1,21 @@
 import React from "react";
-import "./Hero.css";
+import "./GetStarted.css";
 import { Link } from "react-router-dom";
 
-const Hero = () => {
+const GetStarted = () => {
   return (
-    <div className="hero-container">
-      <div className="overlay"></div>
+    <div className="rgs-container">
       <div className="content">
         <div className="left-side" data-aos="fade-up">
-          <h1>Florida and Texas Hard Money Lender</h1>
+          <h1>Ready To Get Started</h1>
           <p>
-            Fast Closing Fix and Flip and Rental Loans For Your Investment
-            Properties.
+            With Ridge Street, obtaining a private mortgage loan is easier than
+            you think! You can get pre-approved online and a Term Sheet that
+            Meet’s your needs will be sent to you within the hour.
           </p>
           <div className="btn-section">
             <Link to="/" className="cta-button">
-              <span className="cta-text">Get Approved Online</span>
+              <span className="cta-text">Get Pre-Approved Online</span>
               <span className="cta-icon-box">
                 <span className="cta-icon"></span>
               </span>
@@ -23,13 +23,11 @@ const Hero = () => {
           </div>
         </div>
         <div className="right-side">
-          <p>
-          
-          </p>
+          <p></p>
         </div>
       </div>
     </div>
   );
 };
 
-export default Hero;
+export default GetStarted;

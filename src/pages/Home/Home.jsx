@@ -9,19 +9,21 @@ import ChooseUs from "../../components/ChooseUs/ChooseUs";
 import Resources from "../../components/Resources/Resources";
 import Footer from "../../components/Footer/Footer";
 import Hero from "../../components/Hero/Hero";
+// import GetStarted from "../../components/GetStarted/GetStarted";
 
 const Home = () => {
   return (
     <div>
-      <Hero/>
+      <Hero />
       <Products />
-      <Location/>
-      <ChooseUs/>
-      <Reviews/>
-      <Projects/>
-      <Investors/>
-      <Resources/>
-      <Footer/>
+      <Location />
+      <ChooseUs />
+      <Reviews />
+      <Projects />
+      <Investors />
+      <Resources />
+      {/* <GetStarted/> */}
+      <Footer />
     </div>
   );
 };
