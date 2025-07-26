@@ -6,6 +6,7 @@ import Reviews from "../../components/Reviews/Reviews";
 import Projects from "../../components/Projects/Projects";
 import Investors from "../../components/Investors/Investors";
 import ChooseUs from "../../components/ChooseUs/ChooseUs";
+import Resources from "../../components/Resources/Resources";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <Reviews/>
       <Projects/>
       <Investors/>
+      <Resources/>
     </div>
   );
 };
