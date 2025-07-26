@@ -8,10 +8,12 @@ import Investors from "../../components/Investors/Investors";
 import ChooseUs from "../../components/ChooseUs/ChooseUs";
 import Resources from "../../components/Resources/Resources";
 import Footer from "../../components/Footer/Footer";
+import Hero from "../../components/Hero/Hero";
 
 const Home = () => {
   return (
     <div>
+      <Hero/>
       <Products />
       <Location/>
       <ChooseUs/>
