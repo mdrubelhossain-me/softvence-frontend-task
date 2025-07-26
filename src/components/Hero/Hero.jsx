@@ -7,7 +7,7 @@ const Hero = () => {
     <div className="hero-container">
       <div className="overlay"></div>
       <div className="content">
-        <div className="left-side">
+        <div className="left-side" data-aos="fade-up">
           <h1>Florida and Texas Hard Money Lender</h1>
           <p>
             Fast Closing Fix and Flip and Rental Loans For Your Investment
