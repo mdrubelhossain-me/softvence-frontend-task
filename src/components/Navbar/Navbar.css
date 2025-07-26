@@ -118,9 +118,9 @@
         border-bottom: 1px solid #e0e0e0;
     }
 
-    .logo .ridge,
-    .logo .street {
-        font-size: 25px;
+    .navbar .logo .ridge,
+    .navbar .logo .street {
+        font-size: 28px;
     }
 
     .menu-toggle {
