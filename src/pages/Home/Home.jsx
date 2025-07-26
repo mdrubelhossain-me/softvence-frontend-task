@@ -7,6 +7,7 @@ import Projects from "../../components/Projects/Projects";
 import Investors from "../../components/Investors/Investors";
 import ChooseUs from "../../components/ChooseUs/ChooseUs";
 import Resources from "../../components/Resources/Resources";
+import Footer from "../../components/Footer/Footer";
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
       <Projects/>
       <Investors/>
       <Resources/>
+      <Footer/>
     </div>
   );
 };

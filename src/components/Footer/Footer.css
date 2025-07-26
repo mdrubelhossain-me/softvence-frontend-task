@@ -1,0 +1,101 @@
+.footer-container {
+    max-width: 1728px;
+    margin: 0 auto;
+    padding: 28px 154px 40px 154px;
+    background-color: #165831;
+}
+
+.footer-container .footer-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 40px;
+}
+
+.footer-container .footer-grid .footer-column h4 {
+    color: #FFF;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.footer-container .footer-grid .footer-column ul {
+    margin: 0;
+    list-style-type: none;
+}
+
+.footer-container .footer-grid .footer-column ul li {
+    color: #FFF;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 168.125%;
+    padding-bottom: 2px;
+}
+
+.footer-container .footer-grid .footer-column ul li .footer-link {
+    color: #FFF;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 168.125%;
+}
+
+.footer-container .footer-grid .footer-column ul li .footer-link:hover {
+    text-decoration: underline;
+}
+
+.footer-container .footer-grid .footer-column .logo {
+    max-width: 325px;
+    display: flex;
+    padding: 16px 0;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 12px;
+    background: #FFF;
+    margin-top: 26px;
+    margin-bottom: 20px;
+}
+
+.footer-container .footer-grid .footer-column .logo .ridge {
+    color: #165831;
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 1.28px;
+    text-transform: uppercase;
+}
+
+.footer-container .footer-grid .footer-column .logo .street {
+    color: #949293;
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 1.28px;
+    text-transform: uppercase;
+}
+
+.social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+@media (min-width: 316px) and (max-width: 1229px) {
+    .footer-container {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+}

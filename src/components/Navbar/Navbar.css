@@ -10,8 +10,8 @@
     z-index: 100;
 }
 
-.logo .ridge,
-.logo .street {
+.navbar .logo .ridge,
+.navbar .logo .street {
     font-family: "Inter", sans-serif;
     font-size: 40px;
     font-weight: 900;
@@ -19,11 +19,11 @@
     text-transform: uppercase;
 }
 
-.logo .ridge {
+.navbar .logo .ridge {
     color: #165831;
 }
 
-.logo .street {
+.navbar .logo .street {
     padding-left: 10px;
     color: #949293;
 }
@@ -84,7 +84,7 @@
 @media (min-width: 769px) and (max-width: 1400px) {
     .navbar {
         padding: 24px 20px;
-         border-bottom: 1px solid #e0e0e0;
+        border-bottom: 1px solid #e0e0e0;
     }
 
     .menu-toggle {
