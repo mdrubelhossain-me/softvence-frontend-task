@@ -387,6 +387,18 @@
         height: 45px !important;
         width: 45px !important;
     }
+
+    .rent-card::before,
+    .construction-card::before {
+        transform: rotate(-6deg);
+
+    }
+
+    .rent-card::after,
+    .construction-card::after {
+        transform: rotate(-6deg);
+
+    }
 }
 
 @media (min-width: 1025px) and (max-width: 1250px) {
