@@ -5,12 +5,14 @@ import Location from "../../components/Location/Location";
 import Reviews from "../../components/Reviews/Reviews";
 import Projects from "../../components/Projects/Projects";
 import Investors from "../../components/Investors/Investors";
+import ChooseUs from "../../components/ChooseUs/ChooseUs";
 
 const Home = () => {
   return (
     <div>
       <Products />
       <Location/>
+      <ChooseUs/>
       <Reviews/>
       <Projects/>
       <Investors/>
