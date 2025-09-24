@@ -1,10 +1,9 @@
 .hero-container {
     max-width: 1728px;
-    height: auto;
-    min-height: 1004px;
+    height: 1004px;
     margin: 0 auto;
     position: relative;
-    background-image: url('../../assets//images/hero-bg.jpg');
+    background-image: url('../../assets//images/hero-bg-2.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -12,7 +11,7 @@
 }
 
 
-.hero-container .overlay {
+/* .hero-container .overlay {
     position: absolute;
     inset: 0;
     background: white;
@@ -21,7 +20,7 @@
     mask-image: linear-gradient(to right, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.8) 50%, rgba(0, 0, 0, 0) 100%);
     -webkit-mask-image: linear-gradient(to right, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 1) 40%, rgba(0, 0, 0, 0.8) 100%);
     z-index: 2;
-}
+} */
 
 
 .hero-container .content {
@@ -72,7 +71,7 @@
 }
 
 .hero-container .content .left-side .btn-section .cta-button {
-    max-width: 415px;
+    max-width: 425px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -177,13 +176,51 @@
     }
 }
 
-@media (min-width: 316px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 991px) {
 
     .hero-container .content {
         padding-right: 20px;
         padding-left: 20px;
         flex-direction: column;
     }
+
+    .hero-container .content .left-side {
+        width: 100% !important;
+    }
+
+    .hero-container .content .left-side h1 {
+        font-size: 45px;
+    }
+
+    .hero-container .content .right-side {
+        width: 100% !important;
+    }
+    .hero-container .content .left-side .btn-section .cta-button {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 316px) and (max-width: 767px) {
+      .hero-container{
+        height: 700px;
+      }
+
+    .hero-container .content {
+        padding-right: 20px;
+        padding-left: 20px;
+        flex-direction: column;
+    }
+    
+.hero-container .overlay {
+    position: absolute;
+    inset: 0;
+    background: white;
+    backdrop-filter: blur(100px);
+    -webkit-backdrop-filter: blur(100px);
+    mask-image: linear-gradient(to right, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.8) 50%, rgba(0, 0, 0, 0) 100%);
+    -webkit-mask-image: linear-gradient(to right, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 1) 40%, rgba(0, 0, 0, 0.8) 100%);
+    z-index: 2;
+} 
 
     .hero-container .content .left-side {
         width: 100% !important;
