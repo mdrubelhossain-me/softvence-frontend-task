@@ -467,4 +467,8 @@
     .cta-button {
         font-size: 16px;
     }
+    .products-card .cta-icon-box {
+        height: 55px;
+        width: 56px;
+    }
 }
